@@ -1,3 +1,13 @@
+"""
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Name: server.py
+Assignment: Lab 10, Exercise A, B, C
+Author(s): Usman Mahmood, Deven Powell
+Submission: Mar 27, 2024
+Description: Flask.
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+"""
+
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import json
